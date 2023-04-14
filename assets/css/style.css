@@ -1,0 +1,229 @@
+:root {
+    --darkColor: #3032c9
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background: #edeff9;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    background: #B1B2FF;
+    color: #fff;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+header h1.logo {
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+.form-box {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: #f8f9ff;
+}
+
+.form-box .inner h3.hdng {
+    font-size: 24px;
+    margin-bottom: 25px;
+    color: #0609cb;
+}
+
+.form-box .inner {
+    background: #EEF1FF;
+    padding: 40px 40px;
+    box-shadow: 0px 0px 30px rgb(177 178 255 / 29%);
+    border: 1px solid #b1b2ff40;
+    border-radius: 7px;
+}
+
+.form-box .inner label.ap_label {
+    font-size: 13px;
+    width: 100%;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #383ae5ad;
+}
+
+.form-box .inner label.ap_label input {
+    display: block;
+    width: 100%;
+    border: 0px!important;
+    height: 42px;
+    margin-top: 5px;
+    border-radius: 5px;
+    transition: 0.5s ease;
+    padding: 0 15px;
+    outline: 1px solid #b1b2ff!important;
+}
+
+.form-box .inner label.ap_label input:focus,
+.form-box .inner label.ap_label input:hover {
+    outline: 1px solid var(--darkColor)!important;
+    border: 0!important;
+}
+
+.form-box .inner label.ap_label input[type="file"] {
+    background: #fff;
+    padding: 10px 15px;
+    height: auto;
+}
+
+.form-box .inner input.ap_submitBtn {
+    background: var(--darkColor);
+    border: 0;
+    height: 45px;
+    margin-top: 25px;
+    color: #fff;
+    text-transform: uppercase;
+    border-radius: 6px;
+    display: block;
+    width: 100%;
+}
+
+.alertError {
+    background: #ffc7be;
+    display: block;
+    margin-top: 4px;
+    padding: 3px 10px;
+    font-size: 11px;
+    color: #a71600;
+    border: 1px solid #a716007d;
+    border-radius: 3px;
+}
+
+button.hdr_btn {
+    background: var(--darkColor);
+    margin-left: auto;
+    display: block;
+    color: #fff;
+    padding: 9px 25px;
+    border: 0;
+    font-size: 14px;
+    border-radius: 5px;
+}
+
+.user-dashboard .sideBar {
+    background: #fff;
+    padding: 30px 20px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px rgb(177 178 255 / 29%);
+}
+
+img {
+    max-width: 100%;
+}
+
+ul,
+li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.user-dashboard .sideBar .userInfo ul,
+.user-dashboard .sideBar .userInfo ul li {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+}
+
+.user-dashboard .sideBar .userInfo ul img {
+    width: 50px;
+}
+
+.user-dashboard .sideBar .userInfo ul h4 {
+    font-size: 16px;
+    margin-left: 15px;
+    color: #13158d;
+    font-weight: 600;
+}
+
+.user-dashboard .sideBar .userInfo {
+    margin-bottom: 15px;
+    border-bottom: 1px solid #b1b2ff38;
+    padding-bottom: 20px;
+}
+
+.user-dashboard {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.user-dashboard .sideBar .menuItems a {
+    text-decoration: none;
+    font-size: 16px;
+    display: block;
+    margin-top: 5px;
+    padding: 5px 10px;
+    transition: 0.5s ease;
+    color: #13158d;
+}
+
+.user-dashboard .sideBar .menuItems a:hover,
+.user-dashboard .sideBar .menuItems a.active {
+    background: #6f71f51c;
+}
+
+.profile-card {
+    background: #fff;
+    padding: 30px 20px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px rgb(255 255 255 / 29%);
+    border: 1px solid #b1b2ff38;
+}
+
+.profile-card h4 {
+    font-size: 20px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.profile-card h4 a {
+    font-size: 12px;
+    background: var(--darkColor);
+    display: inline-block;
+    color: #fff;
+    padding: 5px 15px;
+    border-radius: 5px;
+    font-weight: 400;
+}
+
+.profile-card .userInfoTable {
+    background: #b1b2ff1c;
+    margin-top: 15px;
+    padding: 15px 50px;
+}
+
+.profile-card .userInfoTable .repeat {
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 1px solid #b1b2ff38;
+    padding: 8px 0px;
+}
+
+.profile-card .userInfoTable .repeat .box {
+    width: 50%;
+}
+
+.profile-card .userInfoTable .repeat .box:first-child {
+    font-weight: 500;
+}
